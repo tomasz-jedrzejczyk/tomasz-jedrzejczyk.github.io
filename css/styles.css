@@ -9,9 +9,22 @@ body {
     min-height: 100vh;
 }
 
+.header-container{
+      display: grid;
+      justify-content: center;
+}
 .navigation{
       display: grid;
-      grid-template-columns: auto auto auto;
+      grid-column: 1/2;
+      grid-template-columns: 1fr repeat(6, fit-content(50px));
+      grip-gap: 10px;
+      justify-content: center;
+      justify-items: end;
+      width: 1000px;
+}
+
+.navigation__item-logo{
+justify-self: start;
 }
 
 .footer-container{
