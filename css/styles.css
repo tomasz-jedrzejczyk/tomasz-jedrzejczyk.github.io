@@ -1,0 +1,20 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+
+.navigation{
+      display: grid;
+      grid-template-columns: auto auto auto;
+}
+
+.footer-container{
+      display: grid;
+      grid-template-columns: auto auto auto;
+}
