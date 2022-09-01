@@ -27,6 +27,16 @@ body {
 justify-self: start;
 }
 
+.banner{
+      display: grid;
+      justify-content: center;
+}
+
+.section-heading{
+      display: grid;
+      justify-content: center;
+}
+
 .footer-container{
       display: grid;
       grid-template-columns: auto auto auto;

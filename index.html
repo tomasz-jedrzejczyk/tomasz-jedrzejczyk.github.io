@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
-<header class="page-header">
-    <div class="header-container">
+<header class="header">
+    <div class="header__navbar">
         <ul class="navigation">
             <li class="navigation__item-logo">
                 <a href="./index.html" class="logo">MoGo</a>
@@ -34,18 +34,22 @@
             </li>
         </ul>
     </div>
+    <div class="header__image">
+        <h1 class="banner-text">Creative Template</h1>
+        <h2 class="banner-subtext">WELCOME TO MOGO</h2>
+        <button type="button" class="button-active button-banner">LEARN MORE</button>
+    </div>
 </header>
 <main>
-    <section class="section header-button">
-        <h1 class="header-text">Creative Template</h1>
-        <h2 class="header-subtext">WELCOME TO MOGO</h2>
-        <button type="button" class="button-active button-banner">LEARN MORE</button>
-    </section>
     <section class="section amazing-services">
-        <div class="container">
+        <div class="services">
+            <div class="section-heading">
+                <h1 class="banner-text">We work with</h1>
+                <h2 class="banner-subtext">AMAZING SERVICES</h2>
+            </div>
             <ul class="lorem">
                 <li>
-                    <h3 class="lorem-heading">PHOTOGRAPHY</h3>
+                    <h2 class="lorem-heading">PHOTOGRAPHY</h2>
                     <p class="lorem-paragraph">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
@@ -91,6 +95,14 @@
     </section>
     <section class="section team">
         <div class="container team_photos">
+            <div class="section-heading">
+                <h1 class="banner-text">Who we are</h1>
+                <h2 class="banner-subtext">MEET OUR TEAM</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </div>
             <ul class="photos">
                 <li class="photo">
                     <img
@@ -99,6 +111,8 @@
                             height="400"
                             alt="Man with glasses"
                     />
+                    <h3 class="lorem-heading">MATTHEW DEX</h3>
+                    <p class="lorem-paragraph">Graphic Designer</p>
                 </li>
                 <li class="photo">
                     <img
@@ -107,6 +121,8 @@
                             height="400"
                             alt="Man with camera"
                     />
+                    <h3 class="lorem-heading">CHRISTOPHER CAMPBELL</h3>
+                    <p class="lorem-paragraph">Graphic Designer</p>
                 </li>
                 <li class="photo">
                     <img
@@ -115,6 +131,8 @@
                             height="400"
                             alt="Man with beard"
                     />
+                    <h3 class="lorem-heading">MICHAEL FERTIG</h3>
+                    <p class="lorem-paragraph">Developer</p>
                 </li>
             </ul>
         </div>
