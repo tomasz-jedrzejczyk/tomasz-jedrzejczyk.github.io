@@ -35,3 +35,7 @@ justify-self: start;
       display: grid;
       grid-template-columns: auto auto auto;
 }
+.photos{
+      display: grid;
+      grid-template-columns: auto auto auto;
+}
