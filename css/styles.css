@@ -16,8 +16,8 @@ body {
 .navigation{
       display: grid;
       grid-column: 1/2;
-      grid-template-columns: 1fr repeat(6, fit-content(50px));
-      grip-gap: 10px;
+      grid-template-columns: 1fr repeat(6, fit-content(1000px));
+      grip-gap: 50px;
       justify-content: center;
       justify-items: end;
       width: 1000px;
@@ -28,6 +28,10 @@ justify-self: start;
 }
 
 .footer-container{
+      display: grid;
+      grid-template-columns: auto auto auto;
+}
+.lorem{
       display: grid;
       grid-template-columns: auto auto auto;
 }
