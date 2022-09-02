@@ -87,6 +87,7 @@ h2{
 
 h3{
     margin: 0px;
+    text-align: center;
 }
 
 .footer-container{
@@ -97,15 +98,17 @@ h3{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 2fr 1fr;
+      column-gap: 80px;
+      justify-items: center;
 }
 .photos{
       display: grid;
       grid-template-columns: auto auto auto;
 }
 
-img{
-width: 40px;
-height: 40px;
+
+i{
+    color: red;
 }
 
 .containerd {  display: grid;
@@ -119,9 +122,45 @@ height: 40px;
     "icon p";
 }
 
-.icon { grid-area: icon;
+.icon {
+grid-area: icon;
+
  }
 
 .title { grid-area: title; }
 
 .p { grid-area: p; }
+
+.wrapper{
+    position:absolute;
+    left: 200px;
+    right:200px;
+}
+
+main{
+    position:relative;
+}
+
+.services{
+margin-bottom: 100px;
+}
+
+.header{
+margin-bottom: 100px;
+}
+
+.wrap{
+margin-bottom: 100px;
+}
+
+.parag{
+text-align: center;
+}
+.lorem-paragraph{
+text-align: center;
+}
+
+.photos{
+      justify-items: center;
+}
+
