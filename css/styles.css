@@ -277,14 +277,32 @@ font-weight:600;
 }
 
 .social-media{
-  background-color: #04AA6D;
-  color: white;
-width:60px;
-height:60px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+border:0.25px solid #f38181;
+
+}
+
+.fa{
+background:#fce38a;
+color:#f38181;
+  padding: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+.fa:hover {
+    background:#f38181;
+    color: white;
 }
 
 .hover-container:hover .middle {
   opacity: 1;
+
 }
 
 .middle {
@@ -302,8 +320,9 @@ align-content: center;
 }
 
 .container:hover .image {
-  opacity: 0.3;
+box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
 }
+
 
 .image {
   width:300px;
@@ -317,5 +336,7 @@ align-content: center;
   position: relative;
   width: 50%;
 }
+
+
 
 
