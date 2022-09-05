@@ -48,22 +48,25 @@ padding-right:200px;
         gap: 1px 10px;
         grid-template-areas:
           ". . . . . .";
-        justify-items: stretch;
+        justify-items: center;
         justify-content: end;
 }
 .navigation__item{
-text-align: center;
+display: flex;
+align-items: center;
 
+}
+.navigation__link{
+text-align: center;
 }
 
 .banner-button{
 	background-color:transparent;
 	border-radius:3px;
-	border:2px solid #ffffff;
+	border:2px solid #fff;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
+	color:#fff;
 	font-size:13px;
 	font-weight:bold;
 	padding:10px 30px;
@@ -76,11 +79,15 @@ text-align: center;
 .cart-icon{
 width:15px;
 height:15px;
+color: white;
+padding: 2px;
+filter: invert(99%) sepia(3%) saturate(244%) hue-rotate(51deg) brightness(115%) contrast(100%)
 }
 
 .services-icon{
               width:40px;
               height:40px;
+              filter: invert(93%) sepia(8%) saturate(1341%) hue-rotate(106deg) brightness(91%) contrast(93%);
               }
 
 a{
@@ -96,6 +103,12 @@ padding-inline-start: unset;
 
 .navigation__item-logo{
 justify-self: start;
+
+}
+
+.logo{
+font-size:22px;
+font-weight:600;
 }
 
 .banner{
@@ -106,6 +119,18 @@ justify-self: start;
 .section-heading{
       display: grid;
       justify-content: center;
+      margin-bottom: 50px
+
+}
+
+.section-heading:after{
+    content: '';
+    display: block;
+    position: relative;
+    width: 37px;
+    border: 1px solid #ef8a8a;
+    margin-top: 8px;
+    margin-left: 278px;
 }
 
 h1{
@@ -134,7 +159,6 @@ h3{
       padding-bottom: 25px;
       margin-top: 0px;
       width:100%;
-      border-bottom: solid 2px #FF0000;
       font-family: 'Montserrat', sans-serif;
 }
 
@@ -228,8 +252,8 @@ text-align: center;
 font-family: 'Montserrat', sans-serif;
 }
 .lorem-paragraph{
-text-align: center;
-color:#dbdbdb;
+text-align: left;
+color: #000000;
 font-family: 'Montserrat', sans-serif;
 
 }
@@ -328,8 +352,6 @@ box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
      position: absolute;
      left: 0;
      top: 0;
-     background:url(../images/stephen.jpg) no-repeat center center;
-     background-size: cover;
      z-index: 1;
      width: 100%;
      height: 100%;
@@ -337,6 +359,22 @@ box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
      mix-blend-mode: screen;
 
 }
+
+.image-gd{
+background:url(../images/peter.jpg) no-repeat center center;
+background-size: cover;
+}
+
+.image-ux{
+background:url(../images/cole.jpg) no-repeat center center;
+background-size: cover;
+}
+
+.image-dev{
+background:url(../images/stephen.jpg) no-repeat center center;
+background-size: cover;
+}
+
 .hover-container {
        background: linear-gradient(180deg, #000 0%, #000 25%, #eccc88 50%, #ee898a 75%, #f1d787 100%);
        background-size: 400% 400%;
@@ -353,6 +391,12 @@ box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
        transition: 0.5s all;
        margin-bottom:50px
 
+}
+
+.photo-desc{
+text-align: center;
+color: #000000;
+font-family: 'Montserrat', sans-serif;
 }
 
 
