@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>BEM - devpebe.com</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link
-            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
-            rel="stylesheet"
-    />
     <link rel="stylesheet" href="./css/styles.css"/>
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="header">
@@ -37,31 +37,38 @@
                         <a href="#" class="navigation__link">CONTACT</a>
                     </li>
                     <li class="navigation__item">
-                        <a href="#" class="navigation__link"><span class='icon'></span></a>
+                        <a href="#" class="navigation__link"><img class="cart-icon" src="./icons/cart.png"></a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link"><img class="cart-icon" src="./icons/search.png"></a>
                     </li>
                 </ul>
             </div>
             <div class="header__image">
                 <h1 class="banner-text">Creative Template</h1>
                 <h2 class="banner-subtext">WELCOME TO MOGO</h2>
-                <button type="button" class="button-active button-banner">LEARN MORE</button>
+                <div class="butt">
+                    <button type="button" class="banner-button">LEARN MORE</button>
+                </div>
+
             </div>
         </div>
     </section>
 </header>
 <div class="wrapper">
     <main>
-        <section class="section amazing-services">
+        <section class="section-services">
             <div class="services">
                 <div class="section-heading">
-                    <h1 class="banner-text">We work with</h1>
-                    <h2 class="banner-subtext">AMAZING SERVICES</h2>
+                    <h1 class="banner-tex">We work with</h1>
+                    <h3 class="banner-subtext">AMAZING SERVICES</h3>
                 </div>
+                <div class="">
                 <ul class="lorem">
                     <li>
                         <div class="containerd">
-
-                            <div class="title"><h3 class="lorem-heading">PHOTOGRAPHY</h3></div>
+                            <div><img class="services-icon" src="./icons/clock.png"></div>
+                            <div class="title"><h4 class="lorem-heading">PHOTOGRAPHY</h4></div>
                             <div class="p"><p class="lorem-paragraph">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
@@ -70,8 +77,8 @@
                     </li>
                     <li>
                         <div class="containerd">
-
-                            <div class="title"><h3 class="lorem-heading">WEB DESIGN</h3></div>
+                            <div><img class="services-icon" src="./icons/quadrant.png"></div>
+                            <div class="title"><h4 class="lorem-heading">WEB DESIGN</h4></div>
                             <div class="p"><p class="lorem-paragraph">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
@@ -80,8 +87,8 @@
                     </li>
                     <li>
                         <div class="containerd">
-
-                            <div class="title"><h3 class="lorem-heading">WEB DESIGN</h3></div>
+                            <div><img class="services-icon" src="./icons/monitor.png"></div>
+                            <div class="title"><h4 class="lorem-heading">CREATIVITY</h4></div>
                             <div class="p"><p class="lorem-paragraph">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
@@ -90,8 +97,8 @@
                     </li>
                     <li>
                         <div class="containerd">
-
-                            <div class="title"><h3 class="lorem-heading">WEB DESIGN</h3></div>
+                            <div><img class="services-icon" src="./icons/book.png"></div>
+                            <div class="title"><h4 class="lorem-heading">SEO</h4></div>
                             <div class="p"><p class="lorem-paragraph">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
@@ -100,8 +107,8 @@
                     </li>
                     <li>
                         <div class="containerd">
-
-                            <div class="title"><h3 class="lorem-heading">WEB DESIGN</h3></div>
+                            <div><img class="services-icon" src="./icons/home.png"></div>
+                            <div class="title"><h4 class="lorem-heading">CSS/HTML</h4></div>
                             <div class="p"><p class="lorem-paragraph">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
@@ -110,8 +117,8 @@
                     </li>
                     <li>
                         <div class="containerd">
-
-                            <div class="title"><h3 class="lorem-heading">WEB DESIGN</h3></div>
+                            <div><img class="services-icon" src="./icons/web.png"></div>
+                            <div class="title"><h4 class="lorem-heading">DIGITAL</h4></div>
                             <div class="p"><p class="lorem-paragraph">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
@@ -119,14 +126,15 @@
                         </div>
                     </li>
                 </ul>
+                </div>
             </div>
         </section>
-        <section class="section team">
+        <section class="section-team">
             <div class="container team_photos">
                 <div class="wrap">
                     <div class="section-heading">
-                        <h1 class="banner-text">Who we are</h1>
-                        <h2 class="banner-subtext">MEET OUR TEAM</h2>
+                        <h1 class="banner-tex">Who we are</h1>
+                        <h3 class="banner-subtext">MEET OUR TEAM</h3>
                     </div>
                     <p class="parag">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -137,32 +145,38 @@
                 <ul class="photos">
                     <li class="photo">
                         <img
-                                src="./images/cole.jpg"
+                                src="./images/peter.jpg"
                                 width="300"
                                 height="400"
                                 alt="Man with glasses"
                         />
-                        <h3 class="lorem-heading">MATTHEW DEX</h3>
+                        <h4 class="lorem-heading">MATTHEW DEX</h4>
                         <p class="lorem-paragraph">Graphic Designer</p>
                     </li>
                     <li class="photo">
                         <img
-                                src="./images/peter.jpg"
+                                src="./images/cole.jpg"
                                 width="300"
                                 height="400"
                                 alt="Man with camera"
                         />
-                        <h3 class="lorem-heading">CHRISTOPHER CAMPBELL</h3>
-                        <p class="lorem-paragraph">Graphic Designer</p>
+                        <h4 class="lorem-heading">CHRISTOPHER CAMPBELL</h4>
+                        <p class="lorem-paragraph">Branding/UX design</p>
                     </li>
                     <li class="photo">
-                        <img
-                                src="./images/stephen.jpg"
-                                width="300"
-                                height="400"
-                                alt="Man with beard"
-                        />
-                        <h3 class="lorem-heading">MICHAEL FERTIG</h3>
+                        <div class="hover-container">
+                            <img
+                                    src="./images/stephen.jpg"
+                                    width="300"
+                                    height="400"
+                                    alt="Man with beard"
+                                    class="image"
+                            />
+                            <div class="middle">
+                                <div class="social-media">John Doe</div>
+                            </div>
+                        </div>
+                        <h4 class="lorem-heading">MICHAEL FERTIG</h4>
                         <p class="lorem-paragraph">Developer</p>
                     </li>
                 </ul>
@@ -172,11 +186,12 @@
     </main>
     <footer class="footer">
         <div class="footer-container">
-            <div>
+            <div class="footer-paragraph">
                 <p>@2016 MoGo free PSD template by <a href="#">Tomasz</a></p>
             </div>
-            <div>
-                <p>search</p>
+            <div class="search">
+                <input type="email" class="email-input" name="email" placeholder="Your Email...">
+                <input type="submit" class="subscribe-button" value="SUBSCRIBE">
             </div>
         </div>
     </footer>
